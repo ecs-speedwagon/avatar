@@ -5,76 +5,121 @@
     <link href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <title>Avatar</title>
 </head>
 <body>
     <header>
-        <nav class="header-nav">
-            <img src="./img/avatar-2-6235acaebf926 2.png" alt="">
-                <ul class="navigation">
-                    <li> <a href="#" class="navigation-a">Головна</a></li>
-                    <li><a href="#" class="navigation-a">Про нас</a></li>
-                    <li><a href="#" class="navigation-a">Контакти</a></li>
-                </ul>
-                <ul class="">
-                    <li><button class="enter-btn" type="button">Увійти</button></li>
-                </ul>
-        </nav>
+        <div class="overlay-head">
+              <div class="toggle-button-box">
+                        <label for="toggle-button"  class="text-toggle">ENG</label>
+                            <input type="checkbox" id="toggle-button" class="toggle-button">
+                            <label for="toggle-button" class="text-toggle">UA</label>
+                </div>
+            <div class="container">
+                <nav class="header-nav">
+                    <img src="./img/avatar-2-6235acaebf926 2.png" height="70px" width="180px" alt="">
+                        <ul class="navigation">
+                            <li> <a href="#" class="navigation-a">Головна</a></li>
+                            <li><a href="#" class="navigation-a">Про нас</a></li>
+                            <li><a href="#" class="navigation-a">Контакти</a></li>
+                        </ul>
+                        <ul class="">
+                            <li><button class="enter-btn" type="button">Увійти</button></li>
+                        </ul>
+                </nav>
+            </div>
+        </div>
     </header>
     <main>
-        <section class="main-section">
-            <div class="main-section-child">
-                <p class="av-expression">Oe perlltxe hu tsamsiyu!<br>
-                    Ngari hu Eywa salew tirea,<br>
-                    tokx 'ì'awn slu Na'viyä hapxì.<br>
-                    Säwem nìayoeng!</p>
-                <p class="ua-expression">Хоробрий воїне, звертаюсь до тебе!<br>
-                    Твій дух йде з Ейвою,<br>
-                    твоє тіло залишається,<br> 
-                    щоб стати частиною Народу.<br>
-                    Борись разом з нами!</p>
+        <div class="overlay-main-exp">
+            <div class="container">
+                <section class="main-section">
+                        <div class="main-section-flex">
+                            <div class="main-section-child">                       
+                                <p class="av-expression">Oe perlltxe hu tsamsiyu!<br>
+                                    Ngari hu Eywa salew tirea,<br>
+                                    tokx 'ì'awn slu Na'viyä hapxì.<br>
+                                    Säwem nìayoeng!</p>                
+                                <p class="ua-expression">Хоробрий воїне, звертаюсь до тебе!<br>
+                                    Твій дух йде з Ейвою,<br>
+                                    твоє тіло залишається,<br> 
+                                    щоб стати частиною Народу.<br>
+                                    Борись разом з нами!</p>
+                            </div>
+                                
+                                    <button type="button" class="join-button">Приєднатися до<br>клану</button>
+                        </div>
+                        <div class="svg-pic">
+                           
+                        <div class="ints-svg-pic"><img src="../Avatar/img/inst 1.svg" alt=""></div>
+                        <div class="twitt-svg-pic"><img src="../Avatar/img/Vector.svg" alt=""></div>
+                        <div class="yt-svg-pic"><img src="../Avatar/img/youtube 1.svg" alt=""></div>
+                                
+                         
+                        </div>
+                </section>
             </div>
-                    <button type="button" class="join-button">Приєднатися до клану</button>
-        </section>
-        <div>
-            <h1 class="first-epx">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</h1>
-            <p class="author">Джейк Саллі</p> <!-- maybe h4? -->
+         </div>
+        <div class="container">
+            <div>
+                <h1 class="first-epx">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</h1>
+                <p class="author">Джейк Саллі</p> <!-- maybe h4? -->
+            </div>
+        </div>
+                <div class="watch-button">
+                            <button type="button" class="watch-trlr">Дивитись трейлер</button>
+                </div>    
+        <div class="container">
+            <div>
+                <h1 class="second-exp">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h1>
+                <p class="author">Джейк Саллі</p>
+            </div>
         </div>
 
-            <button type="button" class="watch-trlr">Дивитись трейлер</button>
-        <div>
-            <h1 class="second-exp">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ<br>ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h1>
-            <p class="author">Джейк Саллі</p>
+        <div class="overlay-learn">
+            <div class="container">
+                <section class="learn-section">
+                    <h4 class="learn-lng">Вчимо мову На’ві</h4>
+                    <ul class="learn-exp"> 
+                        <li class="learn-exp-child"><p class="learn-exp-ua">Привіт</p><p class="learn-exp-navi">Kaltxì</p></li>
+                        <li class="learn-exp-child"><p class="learn-exp-ua">Як справи?</p><p class="learn-exp-navi">Ngaru lu fpom srak?</p></li>
+                        <li class="learn-exp-child"><p class="learn-exp-ua">Все добре</p><p class="learn-exp-navi">Lu fpom</p></li>
+                        <li class="learn-exp-child"><p class="learn-exp-ua">Дякую</p><p class="learn-exp-navi">Irayo si </p></li>
+                        <li class="learn-exp-child"><p class="learn-exp-ua">Я бачу тебе</p><p class="learn-exp-navi">Oel ngati kameie</p></li>
+                        <li class="learn-exp-child"><p class="learn-exp-ua">Слідуй за мною!</p><p class="learn-exp-navi">Nong oet!</p></li>                
+                    </ul>
+                </section>
+            </div>
         </div>
-
-        <section class="learn-section">
-            <h4 class="learn-lng">Вчимо мову На’ві</h4>
-            <ul class="learn-exp"> 
-                <li><p class="learn-exp-ua">Привіт</p><p class="learn-exp-navi">Kaltxì</p></li>
-                <li><p class="learn-exp-ua">Як справи?</p><p class="learn-exp-navi">Ngaru lu fpom srak?</p></li>
-                <li><p class="learn-exp-ua">Все добре</p><p class="learn-exp-navi">Lu fpom</p></li>
-                <li><p class="learn-exp-ua">Дякую</p><p class="learn-exp-navi">Irayo si </p></li>
-                <li><p class="learn-exp-ua">Я бачу тебе</p><p class="learn-exp-navi">Oel ngati kameie</p></li>
-                <li><p class="learn-exp-ua">Слідуй за мною!</p><p class="learn-exp-navi">Nong oet!</p></li>                
-            </ul>
-        </section>
-        <h1 class="third-exp">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h1>
-        <p class="author">Нейтірі</p>
+        <div class="container">
+            <h1 class="third-exp">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,<br>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h1>
+            <p class="author">Нейтірі</p>
+        </div>
     </main>
     <footer>
-        <div class="foot-el">
-            <img src="./img/avatar-2-6235acaebf926 2.png" alt="">
-            <ul class="foot-el-name">
-                <li><p>Q&A E-mail</p></li>
-                <li><p>Cooperation E-mail</p></li>
-            </ul>
-            <ul class="foot-el-add">
-                <li><a href="#" >avatartwowqa@gmail.com</a></li>
-                <li><a href="#">avatartwowcoop@gmail.com</a></li>
-            </ul>
+        <div class="overlay-foot">
+            <div class="container">
+                <div class="foot-el">
+                    <img height="70px" width="180px" src="./img/avatar-2-6235acaebf926 2.png" alt="avatar-2">
+                        <img src="./img/Line 37.png" alt="Line37">
+                        <div>
+                                <ul class="foot-el-name">
+                                    <li><p>Q&A E-mail</p></li>
+                                    <li class="vector-line"><img src="./img/Vector 8.png" alt=""></li>
+                                    <li><a href="#" >avatartwowqa@gmail.com</a></li>
+                                </ul>
+                                <ul class="foot-el-add">
+                                    <li><p>Cooperation E-mail</p></li>
+                                    <li class="vector-line"><img src="./img/Vector 9.png" alt=""></li>
+                                    <li><a href="#">avatartwowcoop@gmail.com</a></li>
+                                </ul>
+                        </div>
+                </div>
+                 <p class="advert">&copy;2023 Avatar: The Way Of Water. All rights reserved</p>
+            </div>
         </div>
-        <p class="advert">&copy;2023 Avatar: The Way Of Water. All rights reserved</p>
     </footer>
 </body>
 </html>
