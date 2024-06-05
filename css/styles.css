@@ -263,7 +263,7 @@ margin-top: 300px;
     text-align: justify;
     color: var(--second-color);
     background-color: var(--bg-color);
-    margin: 0 840px;
+    margin-left: 955px;
     margin-top: 340px;
     padding: 20px 13px;
     border: solid 2px var(--second-color);
@@ -416,7 +416,10 @@ margin-bottom: 50px;
     margin-bottom: 30px;
     margin-right: 246px;
 }
-
+.vector-line{
+  display: flex;
+  align-self: center;
+}
 .overlay-foot{
     background-image: linear-gradient( 
         to right,
