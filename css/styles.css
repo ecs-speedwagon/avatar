@@ -15,8 +15,7 @@ ul{
     padding-inline-start: 0px;
 }
 li{
-   list-style: none;
-   
+   list-style: none;  
 }
 p{
     margin-block-start: 0;
@@ -33,11 +32,11 @@ a{
         to right,
         rgba(43, 74, 97, 0.87),
         rgba(43, 74, 97, 0.87)), 
-    url(../img/Rectangle\ 104\ \(1\).png);
+    url(../img/header-bg.jpg);
     width: 100%;
     height: 147px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 90% 10%;
     background-size: cover;
     border-bottom: solid 1px var(--first-color)
 }
@@ -139,9 +138,8 @@ a{
 
 
 
-
 .overlay-main-exp{
-background-image: url(../img/Group\ 48\ 1.png);
+background-image: url(../img/hero-bg.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
@@ -248,7 +246,7 @@ margin-top: 300px;
 
 }
 .watch-button{
-    background-image: url(../img/Rectangle\ 10.svg);
+    background-image: url(../img/wath-trlr.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -284,7 +282,7 @@ margin-top: 300px;
         to right,
         rgba(255, 255, 255,0.6),
         rgba(255, 255, 255,0.6)
-    ) ,url(../img/Rectangle\ 20\ \(2\).svg);
+    ) ,url(../img/learn-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -425,8 +423,8 @@ margin-bottom: 50px;
         to right,
         rgba(43, 74, 97, 0.87) ,
         rgba(43, 74, 97, 0.87)), 
-    url(../img/Rectangle\ 12.png);
-    background-position: center;
+    url(../img/header-bg.jpg);
+    background-position: 90% 10%;
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
